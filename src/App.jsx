@@ -52,7 +52,7 @@ function App() {
           onChange={(e) => setText(e.target.value)}
           placeholder="Enter a new task..."
         />
-        <button type="submit">Add Todo</button>
+        <button className="custem" type="submit">Add Todo</button>
       </form>
       <ul>
         {todos.map((todo) => (
